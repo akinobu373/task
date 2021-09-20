@@ -29,7 +29,7 @@
         @method('PATCH')
         <p>
             <label for="title">[タイトル]</label>
-            <input type="text" name="title" value="{{ old('title',$task->title )}}">
+            <input type="text" name="title" value="{{ old('title',$task->title )}}" required>
         </p>
         <p>
             <label for="body">[本文]</label>

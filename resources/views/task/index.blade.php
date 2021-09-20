@@ -40,7 +40,7 @@
         @csrf
         <p>
             <label for="title">タイトル</label>
-            <input type="text" name="title" ,value="{{ old('title') }}">
+            <input type="text" name="title" value="{{ old('title') }}" required>
         </p>
         <p>
             <label for="body">内容</label>
